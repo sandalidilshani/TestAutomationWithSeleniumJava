@@ -58,7 +58,7 @@ jobs:
     
     - name: Upload Test Reports
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v5
       with:
         name: test-reports
         path: latest-report/
@@ -72,12 +72,4 @@ jobs:
           target/surefire-reports/TEST-*.xml
         check_name: Test Results
     
-    - name: Slack Notification (Optional)
-      if: always()
-      uses: 8398a7/action-slack@v3
-      with:
-        status: ${{ job.status }}
-        text: 'Selenium Tests - ${{ job.status }}'
-        webhook_url: ${{ secrets.SLACK_WEBHOOK }}
-        fields: repo,message,commit,author
-      continue-on-error: true
+    
