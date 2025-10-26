@@ -1,6 +1,6 @@
 package com.expandtesting.tests;
 
-import com.demoqa.base.BaseTest;
+import com.expandtesting.base.BaseTest;
 import com.expandtesting.pages.TablePage;
 import org.testng.annotations.Test;
 

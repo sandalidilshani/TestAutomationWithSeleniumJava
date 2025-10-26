@@ -1,7 +1,7 @@
 package com.demoqa.tests;
 
-import com.demoqa.base.BaseTest;
 import com.demoqa.pages.DemoqaPage;
+import com.tempTestForReport.base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

@@ -5,8 +5,6 @@ import com.demoqa.pages.DemoqaPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.io.File;
-
 public class TestCase01_Valid extends BaseTest {
 
     DemoqaPage demoqaPage= new DemoqaPage();

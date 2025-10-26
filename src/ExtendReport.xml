@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-current.dtd">
+<suite name="Automation Suite">
+    <test name="DemoQA Tests">
+        <classes>
+            <class name="com.demoqa.tests.TestCase01_Valid"/>
+            <class name="com.demoqa.tests.TestCase02_Invalid"/>
+            <class name="com.demoqa.tests.TestCase01_Valid_DDF"/>
+            <class name="com.parkcalc.tests.TestCase01_ValetParkingCalc"/>
+            <class name="com.parkcalc.tests.TestCase02_ShortTermParkingHourlyCalc"/>
+            <class name="com.parkcalc.tests.TestCase03_LongTermGarageWeeklyCalc"/>
+            <class name="com.expandtesting.tests.TestCase01_ValidateHeader"/>
+            <class name="com.expandtesting.tests.TestCase02_ValidateRow"/>
+            <class name="com.expandtesting.tests.TestCase03_ValidateRowData"/>
+
+
+        </classes>
+    </test>
+</suite>
