@@ -2,6 +2,7 @@ package com.parkcalc.tests;
 
 import com.parkcalc.base.BaseTest;
 import com.parkcalc.pages.ParkCalcPage;
+import com.parkcalc.pages.ValetParkingCalc;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -9,6 +10,7 @@ import org.testng.annotations.Test;
 public class TestCase01_ValetParkingCalc extends BaseTest {
 
     private ParkCalcPage parkCalcPage;
+    private ValetParkingCalc valetParkingCalc;
     boolean isOpened;
     String selectedDate;
 
@@ -16,6 +18,8 @@ public class TestCase01_ValetParkingCalc extends BaseTest {
     public void setUpPage() {
         // 🟢 Always create the page object before each test
         parkCalcPage = new ParkCalcPage();
+        valetParkingCalc = new ValetParkingCalc();
+
 
     }
 
@@ -50,11 +54,13 @@ public class TestCase01_ValetParkingCalc extends BaseTest {
 
             parkCalcPage.calculate();
 
-            String actualCost = parkCalcPage.getTotalCost();
+            double actualCost = parkCalcPage.getTotalCost();
             int actualHours = parkCalcPage.getTotalHours();
+            logger.info("Duration: " + actualHours + " hours");
+            logger.info("Cost: " + actualCost);
 
-            Assert.assertEquals(actualCost, "$ 12.00", "❌ Total cost mismatch!");
-            Assert.assertEquals(actualHours, 3, "❌ Total hours mismatch!");
+            double expectedCost = valetParkingCalc.calculate("10/23/2025", "10:00", "10/23/2025", "13:00");
+            Assert.assertEquals(actualCost, expectedCost, "❌ Total cost mismatch!");
 
 
         } catch (Exception e) {

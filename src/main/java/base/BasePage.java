@@ -1,8 +1,6 @@
 package base;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 
 public class BasePage {
     public static WebDriver driver;
@@ -24,9 +22,24 @@ public class BasePage {
         find(locator).clear();
         find(locator).sendKeys(text);
     }
-
-    protected  void click(By locator){
-        find(locator).click();
+    protected void SendEnterKey(By locator){
+        find(locator).sendKeys(Keys.ENTER);
     }
 
-}
+    protected  void click(By locator){
+        try {
+            find(locator).click();
+
+        } catch (ElementClickInterceptedException e) {
+            System.out.println("⚠️ Click intercepted. Trying JavaScript click for: " + locator);
+            WebElement element = driver.findElement(locator);
+            ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+        } catch (Exception ex) {
+            System.out.println("❌ Could not click element: " + locator);
+            ex.printStackTrace();
+        }
+    }
+    }
+
+

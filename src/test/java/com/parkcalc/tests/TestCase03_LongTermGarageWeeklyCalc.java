@@ -52,19 +52,19 @@ public class TestCase03_LongTermGarageWeeklyCalc extends BaseTest {
             parkCalcPage.calculate();
 
             // Get actual cost and duration from the app
-            String actualCost = parkCalcPage.getTotalCost();
+            double actualCost = parkCalcPage.getTotalCost();
             int actualHours = parkCalcPage.getTotalHours();
 
             logger.info("Duration: " + actualHours + " hours");
             logger.info("Displayed Cost: " + actualCost);
 
-            double expected = longTermCalc.calculate("10/20/2025", "08:00", "10/27/2025", "08:00");
-            String expectedCost = "$ " + String.format("%.2f", expected);
+            double expectedCost = longTermCalc.calculate("10/20/2025", "08:00", "10/27/2025", "08:00");
+
 
             logger.info("Expected Cost: " + expectedCost);
 
             Assert.assertEquals(actualCost, expectedCost, "Total cost mismatch!");
-            Assert.assertEquals(expected, 72.0, "Expected weekly rate should be $72.00");
+            Assert.assertEquals(expectedCost, 72.0, "Expected weekly rate should be $72.00");
             logger.info("✅ Long-Term Garage weekly calculation passed successfully");
 
         } catch (Exception e) {

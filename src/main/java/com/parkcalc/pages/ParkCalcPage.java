@@ -146,8 +146,12 @@ public class ParkCalcPage extends BasePage {
         click(CalculateButton);
     }
 
-    public String getTotalCost() {
-        return find(totalCost).getText().trim();
+    public double getTotalCost() {
+        String values = find(totalCost).getText().trim();
+        String numberOnly = values.replace("$", "").trim();
+        double cost = Double.parseDouble(numberOnly);
+        return Math.round(cost * 100.0) / 100.0;
+
     }
 
     public String getDuration() {
