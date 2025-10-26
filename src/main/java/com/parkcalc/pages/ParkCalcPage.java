@@ -12,7 +12,6 @@ public class ParkCalcPage extends BasePage {
     WebElement parkingTypeList = find(By.id("ParkingLot"));
     Select objSelect = new Select(parkingTypeList);
     private By selectStartDate = By.id("StartingDate");
-    private By selectLeavingDate = By.id("LeavingDate");
     private By selectStartTime = By.id("StartingTime");
     private By selectEndTime = By.id("LeavingTime");
     private By Startcalender = By.cssSelector("a[href*='StartingDate'] img");
@@ -139,7 +138,6 @@ public class ParkCalcPage extends BasePage {
         WebElement timeInput = find(By.id("StartingTime"));
         timeInput.clear();
         timeInput.sendKeys(time12);
-
 
         if (ampm.equals("AM")) click(By.xpath("//input[@name='StartingTimeAMPM' and @value='AM']"));
         else click(By.xpath("//input[@name='StartingTimeAMPM' and @value='PM']"));

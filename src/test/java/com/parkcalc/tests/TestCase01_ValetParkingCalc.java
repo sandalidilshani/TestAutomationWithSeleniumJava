@@ -16,6 +16,7 @@ public class TestCase01_ValetParkingCalc extends BaseTest {
     public void setUpPage() {
         // 🟢 Always create the page object before each test
         parkCalcPage = new ParkCalcPage();
+
     }
 
     @Test(description = "Test Case 1: Valet Parking Daily Calculation")
@@ -42,6 +43,7 @@ public class TestCase01_ValetParkingCalc extends BaseTest {
             Assert.assertTrue(isOpened, "❌ Calendar popup did not open!");
             parkCalcPage.setDate(2025,"23","May");
             selectedDate=parkCalcPage.SelectedDate();
+
 
             parkCalcPage.setStartTime("10.00");
             parkCalcPage.setEndTime("13.00");
