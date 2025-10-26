@@ -26,6 +26,7 @@ public class BasePage {
         find(locator).sendKeys(Keys.ENTER);
     }
 
+
     protected  void click(By locator){
         try {
             find(locator).click();

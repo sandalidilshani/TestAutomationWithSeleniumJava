@@ -1,19 +1,21 @@
-package com.demoqa.base;
+package com.expandtesting.base;
+
 import com.demoqa.pages.DemoqaPage;
 import main.mainTest;
 import org.testng.annotations.BeforeMethod;
+
 import java.time.Duration;
 
 
 public class BaseTest extends mainTest {
-    String TABLE_URL = "https://practice.expandtesting.com/dynamic-table?utm_source=chatgpt.com";
+    String DEMOQA_URL = "https://demoqa.com/automation-practice-form";
 
     @BeforeMethod
     public void setUp(){
 
         basePage = new DemoqaPage();
         basePage.setDriver(getDriver());
-        basePage.navigateToUrl(TABLE_URL);
+        basePage.navigateToUrl(DEMOQA_URL);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
     }
