@@ -1,0 +1,66 @@
+name: Selenium Java Automation Tests
+
+on:
+  push:
+    branches: [ main, master, develop ]
+  schedule:
+    # Runs at 8 AM UTC every day
+    - cron: '0 8 * * *'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        java-version: [ '23' ]
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v5
+    
+    - name: Set up JDK
+      uses: actions/setup-java@v5
+      with:
+        java-version: ${{ matrix.java-version }}
+        distribution: 'temurin'
+        cache: maven
+    
+    - name: Install Chrome browser
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y chromium-browser
+    
+    - name: Download ChromeDriver
+      run: |
+        CHROME_VERSION=$(chromium-browser --version | awk '{print $NF}')
+        wget https://googlechromelabs.github.io/chrome-for-testing/
+        # Alternative: Use WebDriverManager dependency in pom.xml
+    
+    - name: Run Selenium Tests
+      run: |
+        mvn clean test -Dsuite=testng.xml
+      continue-on-error: true
+    
+    - name: Generate Test Report
+      if: always()
+      run: |
+        mkdir -p latest-report
+        # Copy TestNG report to latest-report directory
+        if [ -d "reports" ]; then
+          cp -r reports/* latest-report/ || true
+        fi
+        
+       
+    
+    - name: Upload Test Reports
+      if: always()
+      uses: actions/upload-artifact@v5
+      with:
+        name: test-reports
+        path: latest-report/
+        retention-days: 30
+    
+   
+    
+    
