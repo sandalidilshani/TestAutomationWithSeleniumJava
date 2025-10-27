@@ -64,7 +64,7 @@ public class TestCase01_Valid_DDF extends BaseTest {
     DemoqaPage demoqaPage = new DemoqaPage();
 
     @Test(dataProvider = "formData")
-    public void tests(String recordType, String firstName, String lastName, String email,
+    public void FormTesting(String recordType, String firstName, String lastName, String email,
                       String gender, String mobile, String dob, String subjects,
                       String hobbies, String picture, String address, String state,
                       String city, String invalidityReason) throws InterruptedException {
@@ -80,7 +80,6 @@ public class TestCase01_Valid_DDF extends BaseTest {
                 ", Hobbies: " + hobbies +
                 ", Mobile: " + mobile);
 
-        // Parse hobbies from comma-separated string to array
         String[] hobbiesArray = hobbies != null ? hobbies.split(",\\s*") : new String[0];
 
         demoqaPage.registartionForm(

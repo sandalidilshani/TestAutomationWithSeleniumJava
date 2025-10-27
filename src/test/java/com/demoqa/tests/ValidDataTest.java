@@ -10,7 +10,7 @@ public class TestCase01_Valid extends BaseTest {
     DemoqaPage demoqaPage= new DemoqaPage();
 
     @Test
-    public void tests()throws InterruptedException{
+    public void ValidForm()throws InterruptedException{
         System.out.println("Page Title: " + driver.getTitle());
         demoqaPage.registartionForm(
                 "Sandali",
@@ -33,12 +33,6 @@ public class TestCase01_Valid extends BaseTest {
 
     }
 
-    @Test
-    public void temp(){
-        demoqaPage.setState("Rajasthan");
-        demoqaPage.setCity("Jaipur");
 
-
-    }
 
 }
