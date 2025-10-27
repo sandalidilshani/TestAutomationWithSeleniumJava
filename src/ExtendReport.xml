@@ -3,9 +3,9 @@
 <suite name="Automation Suite">
     <test name="DemoQA Tests">
         <classes>
-            <class name="com.demoqa.tests.TestCase01_Valid"/>
-            <class name="com.demoqa.tests.TestCase02_Invalid"/>
-            <class name="com.demoqa.tests.TestCase01_Valid_DDF"/>
+            <class name="com.demoqa.tests.ValidDataTest"/>
+            <class name="com.demoqa.tests.InvalidDataTest"/>
+            <class name="com.demoqa.tests.TestCase01_02_DDT"/>
             <class name="com.parkcalc.tests.TestCase01_ValetParkingCalc"/>
             <class name="com.parkcalc.tests.TestCase02_ShortTermParkingHourlyCalc"/>
             <class name="com.parkcalc.tests.TestCase03_LongTermGarageWeeklyCalc"/>

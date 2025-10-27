@@ -2,6 +2,7 @@ package com.demoqa.pages;
 
 import base.BasePage;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import java.io.File;
@@ -101,7 +102,7 @@ public class DemoqaPage extends BasePage {
         };
     }
 
-    public void setDateOfBirth(String date) {
+    public void setDateOfBirth(String date) throws InterruptedException {
         // Expected format: "26 October 1999"
         String[] parts = date.split(" ");
         String day = parts[0];
@@ -110,23 +111,49 @@ public class DemoqaPage extends BasePage {
         int monthInt = getMonthIndex(month);
 
 
-        // Click input to open datepicker
+        WebElement dateInput = find(dateOfBirthInput);
+
+        // Scroll the date input into view
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].scrollIntoView(true);", dateInput);
+        Thread.sleep(500);
+
+        // Close any visible ads/iframes by scrolling
+        js.executeScript("window.scrollBy(0, 300);");
+        Thread.sleep(500);
+
         click(dateOfBirthInput);
+        Thread.sleep(1000);
 
         // Select year
-        Select yearSelect = new Select(find (yearDropdown));
+        Select yearSelect = new Select(find(yearDropdown));
         yearSelect.selectByVisibleText(year);
+        Thread.sleep(500);
 
         // Select month
         Select monthSelect = new Select(find(monthDropdown));
-        monthSelect.selectByValue(new String(String.valueOf(monthInt)));
+        monthSelect.selectByValue(String.valueOf(monthInt));
+        Thread.sleep(500);
 
-        // Select day
+        // Select day with retry logic
         String dayXpath = "//div[@role='option' and contains(@class, 'react-datepicker__day') and not(contains(@class, 'outside-month')) and text()='" + day + "']";
-        driver.findElement(By.xpath(dayXpath)).click();
+        WebElement dayElement = driver.findElement(By.xpath(dayXpath));
 
+        // Scroll day element into view
+        js.executeScript("arguments[0].scrollIntoView(true);", dayElement);
+        Thread.sleep(500);
+
+        // Try to click with Actions if regular click fails
+        try {
+            dayElement.click();
+        } catch (Exception e) {
+            System.out.println("Regular click failed, trying with Actions...");
+            org.openqa.selenium.interactions.Actions actions = new org.openqa.selenium.interactions.Actions(driver);
+            actions.moveToElement(dayElement).click().perform();
+            Thread.sleep(500);
+
+        }
     }
-
 
     public void setSubjects(String subject) {
         set(subjectsInput, subject);
@@ -154,30 +181,22 @@ public class DemoqaPage extends BasePage {
 
     public void uploadProfileImage(String imagePath) throws InterruptedException {
         try {
-            // Get absolute path
-            String absolutePath = new File(imagePath).getAbsolutePath();
-            System.out.println("Uploading file: " + absolutePath);
-
-            // Find the file input element using your find() method
+            String ePath = new File(imagePath).getAbsolutePath();
+            System.out.println("Uploading file: " + ePath);
             WebElement fileInput = find(uploadPictureButton);
-
-            // Send the file path directly
-            fileInput.sendKeys(absolutePath);
-
-            // Wait for upload to complete
+            fileInput.sendKeys(ePath);
             Thread.sleep(2000);
 
-            // Verify upload was successful
             List<WebElement> uploadedPath = driver.findElements(By.cssSelector("p#uploadedFilePath"));
 
             if (uploadedPath.size() > 0 && !uploadedPath.get(0).getText().isEmpty()) {
-                System.out.println("✓ File Uploaded successfully: " + uploadedPath.get(0).getText());
+                System.out.println("File Uploaded successfully: " + uploadedPath.get(0).getText());
             } else {
-                System.out.println("✗ Upload verification failed");
+                System.out.println(" verification failed");
             }
 
         } catch (Exception e) {
-            System.out.println("✗ File upload error: " + e.getMessage());
+            System.out.println("File  error: " + e.getMessage());
             e.printStackTrace();
         }
     }
@@ -208,15 +227,18 @@ public class DemoqaPage extends BasePage {
     }
 
 
-    public void submitForm() {
+    public boolean submitForm() {
         click(submitButton);
+        return registerValidation();
     }
 
     public boolean registerValidation() {
         WebElement popup = find(popupReguster);
         return popup.isDisplayed();
-
     }
+
+
+
 
 
 

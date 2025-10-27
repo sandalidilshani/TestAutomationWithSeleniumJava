@@ -1,0 +1,1425 @@
+Starting test setup...
+✓ ExtentReportManager initialized
+✓ Chrome browser launched and maximized
+✓ BasePage initialized with WebDriver
+>>> Test started: ValidForm
+Navigating to DemoQA form...
+Navigation complete. Test ready.
+✗ Test FAILED: ValidForm
+Starting test teardown...
+✓ Browser closed successfully
+Test teardown completed
+=== Flushing report after ALL tests ===
+✓ ExtentReport generated successfully
+✓ Report location: ./reports/
+Starting test setup...
+✓ ExtentReportManager initialized
+✓ Chrome browser launched and maximized
+✓ BasePage initialized with WebDriver
+>>> Test started: ValidForm
+Navigating to DemoQA form...
+Navigation complete. Test ready.
+✓ Test PASSED: ValidForm
+Starting test teardown...
+✓ Browser closed successfully
+Test teardown completed
+=== Flushing report after ALL tests ===
+✓ ExtentReport generated successfully
+✓ Report location: ./reports/
+Starting test setup...
+✓ ExtentReportManager initialized
+✓ Chrome browser launched and maximized
+✓ BasePage initialized with WebDriver
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: John, LastName: Doe, Email: john.doe@example.com, Gender: Male, DOB: 26 May 1999, Subjects: Physics, Hobbies: Sports, Reading, Mobile: 2147483647
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Alice, LastName: Smith, Email: a.smith@test.net, Gender: Female, DOB: 27 May 1999, Subjects: Computer Science, Hobbies: Reading, Music, Mobile: 1234567890
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Raj, LastName: Patel, Email: raj.p@corp.in, Gender: Male, DOB: 28 May 1999, Subjects: Chemistry, Hobbies: Sports, Mobile: 2147483647
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✓ Test PASSED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Priya, LastName: Verma, Email: priya.v@org.com, Gender: Female, DOB: 2 May 1999, Subjects: English, Hobbies: Music, Mobile: 9998888
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Zack, LastName: King, Email: zack@tech.io, Gender: Male, DOB: 3 May 1999, Subjects: Commerce, Hobbies: Sports, Reading, Music, Mobile: 1122334455
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Mira, LastName: Shukla, Email: mira.s@data.co, Gender: Female, DOB: 3 May 1999, Subjects: Art, Hobbies: Reading, Mobile: 2147483647
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Omar, LastName: Khan, Email: omar.k@test.com, Gender: Male, DOB: 3 May 1999, Subjects: History, Hobbies: Sports, Mobile: 2147483647
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Tara, LastName: Singh, Email: tara@mail.in, Gender: Other, DOB: 3 May 1999, Subjects: Science, Hobbies: Music, Mobile: 2147483647
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✓ Test PASSED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Leo, LastName: Gupta, Email: leo.g@biz.net, Gender: Male, DOB: 4 May 1999, Subjects: Accounting, Hobbies: Reading, Mobile: 2147483647
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Nina, LastName: Reddy, Email: nina@test.org, Gender: Female, DOB: 3 May 1999, Subjects: Psychology, Hobbies: Music, Sports, Mobile: 2147483647
+Test FAILED - Exception occurred: ElementNotInteractableException
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=141.0.7390.108)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [809edacbe693a0b933773d2f5f3c972f, sendKeysToElement {id=f.4D63B788EFB1A39C457FF9104525620A.d.429388DBCDF8156D51A6F09C8C85FFB3.e.1149, value=[Ljava.lang.CharSequence;@6a63ff31}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49696}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49696/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (809edacbe693a0b933773d2f5f3c972f)] -> id: react-select-4-input]
+Session ID: 809edacbe693a0b933773d2f5f3c972f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.demoqa.pages.DemoqaPage.setCity(DemoqaPage.java:202)
+	at com.demoqa.pages.DemoqaPage.registartionForm(DemoqaPage.java:57)
+	at com.demoqa.tests.TestCase01_02_DDT.FormTesting(TestCase01_02_DDT.java:82)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: ---, FirstName: ---, LastName: ---, Email: ---, Gender: ---, DOB: 6 May 1999, Subjects: ---, Hobbies: ---, Mobile: ---
+Test FAILED - Exception occurred: ElementNotInteractableException
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=141.0.7390.108)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [809edacbe693a0b933773d2f5f3c972f, sendKeysToElement {id=f.4D63B788EFB1A39C457FF9104525620A.d.E81F15CBCDFC840CFEC3316AA65D5A20.e.1264, value=[Ljava.lang.CharSequence;@42fa5cb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49696}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49696/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (809edacbe693a0b933773d2f5f3c972f)] -> id: react-select-4-input]
+Session ID: 809edacbe693a0b933773d2f5f3c972f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.demoqa.pages.DemoqaPage.setCity(DemoqaPage.java:202)
+	at com.demoqa.pages.DemoqaPage.registartionForm(DemoqaPage.java:57)
+	at com.demoqa.tests.TestCase01_02_DDT.FormTesting(TestCase01_02_DDT.java:82)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Invalid, FirstName: Error, LastName: Too Short, Email: error@test.com, Gender: Female, DOB: 7 May 1999, Subjects: Math, Hobbies: Reading, Mobile: 12345
+PASS: Form submission blocked for invalid data - RecordType: Invalid, Reason: Mobile: Less than 10 digits.
+✓ Test PASSED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Invalid, FirstName: Error, LastName: Too Long, Email: error@test.com, Gender: Male, DOB: 8 May 1999, Subjects: Math, Hobbies: Reading, Mobile: 2147483647
+PASS: Form submission blocked for invalid data - RecordType: Invalid, Reason: Mobile: More than 10 digits.
+✓ Test PASSED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Invalid, FirstName: Invalid, LastName: Email, Email: https://www.google.com/search?q=bad.email.com, Gender: Other, DOB: 9 May 1999, Subjects: Math, Hobbies: Reading, Mobile: 1234567890
+PASS: Form submission blocked for invalid data - RecordType: Invalid, Reason: Email: Missing the '@' symbol.
+✓ Test PASSED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Invalid, FirstName: Missing, LastName: Gender, Email: missing@gender.net, Gender: (Empty), DOB: 06 May 1999, Subjects: Math, Hobbies: Reading, Mobile: 2147483647
+Test FAILED - Exception occurred: NoSuchElementException
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@role='option' and contains(@class, 'react-datepicker__day') and not(contains(@class, 'outside-month')) and text()='06']"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [809edacbe693a0b933773d2f5f3c972f, findElement {value=//div[@role='option' and contains(@class, 'react-datepicker__day') and not(contains(@class, 'outside-month')) and text()='06'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49696}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49696/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 809edacbe693a0b933773d2f5f3c972f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at com.demoqa.pages.DemoqaPage.setDateOfBirth(DemoqaPage.java:126)
+	at com.demoqa.pages.DemoqaPage.registartionForm(DemoqaPage.java:51)
+	at com.demoqa.tests.TestCase01_02_DDT.FormTesting(TestCase01_02_DDT.java:82)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Invalid, FirstName: Bad, LastName: Date, Email: bad@date.co, Gender: Male, DOB: 1 May 1999, Subjects: Math, Hobbies: Reading, Mobile: 1111111111
+✗ Test FAILED: FormTesting
+Starting test teardown...
+✓ Browser closed successfully
+Test teardown completed
+=== Flushing report after ALL tests ===
+✓ ExtentReport generated successfully
+✓ Report location: ./reports/
+Starting test setup...
+✓ ExtentReportManager initialized
+✓ Chrome browser launched and maximized
+✓ BasePage initialized with WebDriver
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: John, LastName: Doe, Email: john.doe@example.com, Gender: Male, DOB: 26 May 1999, Subjects: Physics, Hobbies: Sports, Reading, Mobile: 2147483647
+Test FAILED - Exception occurred: ElementClickInterceptedException
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="react-datepicker__day react-datepicker__day--0..." tabindex="-1" aria-label="Choose Wednesday, May 26th, 1999" role="option" aria-disabled="false">26</div> is not clickable at point (613, 422). Other element would receive the click: <iframe frameborder="0" src="https://51ff5f91786492e4474d9bd48f4993f4.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="809" height="100" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>
+  (Session info: chrome=141.0.7390.108)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6e50218495ba8aba3612f37705b9f25, clickElement {id=f.145949285E4BD62AF1258B782B26D1D2.d.3BF737309D4CE4AECDFD2D4A61E53C06.e.110}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59754}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59754/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c6e50218495ba8aba3612f37705b9f25)] -> xpath: //div[@role='option' and contains(@class, 'react-datepicker__day') and not(contains(@class, 'outside-month')) and text()='26']]
+Session ID: c6e50218495ba8aba3612f37705b9f25
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.demoqa.pages.DemoqaPage.setDateOfBirth(DemoqaPage.java:126)
+	at com.demoqa.pages.DemoqaPage.registartionForm(DemoqaPage.java:51)
+	at com.demoqa.tests.TestCase01_02_DDT.FormTesting(TestCase01_02_DDT.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Alice, LastName: Smith, Email: a.smith@test.net, Gender: Female, DOB: 27 May 1999, Subjects: Computer Science, Hobbies: Reading, Music, Mobile: 1234567890
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Raj, LastName: Patel, Email: raj.p@corp.in, Gender: Male, DOB: 28 May 1999, Subjects: Chemistry, Hobbies: Sports, Mobile: 2147483647
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Priya, LastName: Verma, Email: priya.v@org.com, Gender: Female, DOB: 2 May 1999, Subjects: English, Hobbies: Music, Mobile: 9998888
+Test FAILED - Exception occurred: UnreachableBrowserException
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6e50218495ba8aba3612f37705b9f25, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59754}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59754/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c6e50218495ba8aba3612f37705b9f25
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at base.BasePage.find(BasePage.java:18)
+	at base.BasePage.set(BasePage.java:22)
+	at com.demoqa.pages.DemoqaPage.setUserNumber(DemoqaPage.java:83)
+	at com.demoqa.pages.DemoqaPage.registartionForm(DemoqaPage.java:50)
+	at com.demoqa.tests.TestCase01_02_DDT.FormTesting(TestCase01_02_DDT.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:500)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:956)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+	... 9 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1082)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:280)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$2(PlainHttpConnection.java:238)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:978)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:554)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1817)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	... 3 more
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:958)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 10 more
+✗ Test FAILED: FormTesting
+Error in AfterMethod: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6e50218495ba8aba3612f37705b9f25, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59754}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59754/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c6e50218495ba8aba3612f37705b9f25
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+=== Flushing report after ALL tests ===
+✓ ExtentReport generated successfully
+✓ Report location: ./reports/
+Starting test setup...
+✓ ExtentReportManager initialized
+✓ Chrome browser launched and maximized
+✓ BasePage initialized with WebDriver
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: John, LastName: Doe, Email: john.doe@example.com, Gender: Male, DOB: 26 May 1999, Subjects: Physics, Hobbies: Sports, Reading, Mobile: 2147483647
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Alice, LastName: Smith, Email: a.smith@test.net, Gender: Female, DOB: 27 May 1999, Subjects: Computer Science, Hobbies: Reading, Music, Mobile: 1234567890
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Raj, LastName: Patel, Email: raj.p@corp.in, Gender: Male, DOB: 28 May 1999, Subjects: Chemistry, Hobbies: Sports, Mobile: 2147483647
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Priya, LastName: Verma, Email: priya.v@org.com, Gender: Female, DOB: 2 May 1999, Subjects: English, Hobbies: Music, Mobile: 9998888
+Starting test setup...
+✓ ExtentReportManager initialized
+✓ Chrome browser launched and maximized
+✓ BasePage initialized with WebDriver
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: John, LastName: Doe, Email: john.doe@example.com, Gender: Male, DOB: 26 May 1999, Subjects: Physics, Hobbies: Sports, Reading, Mobile: 2147483647
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Alice, LastName: Smith, Email: a.smith@test.net, Gender: Female, DOB: 27 May 1999, Subjects: Computer Science, Hobbies: Reading, Music, Mobile: 1234567890
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Raj, LastName: Patel, Email: raj.p@corp.in, Gender: Male, DOB: 28 May 1999, Subjects: Chemistry, Hobbies: Sports, Mobile: 2147483647
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Priya, LastName: Verma, Email: priya.v@org.com, Gender: Female, DOB: 2 May 1999, Subjects: English, Hobbies: Music, Mobile: 9998888
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+Starting test setup...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Zack, LastName: King, Email: zack@tech.io, Gender: Male, DOB: 3 May 1999, Subjects: Commerce, Hobbies: Sports, Reading, Music, Mobile: 1122334455
+✓ ExtentReportManager initialized
+✓ Chrome browser launched and maximized
+✓ BasePage initialized with WebDriver
+>>> Test started: ValidForm
+Navigating to DemoQA form...
+Navigation complete. Test ready.
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Mira, LastName: Shukla, Email: mira.s@data.co, Gender: Female, DOB: 3 May 1999, Subjects: Art, Hobbies: Reading, Mobile: 2147483647
+✗ Test FAILED: ValidForm
+Starting test teardown...
+✓ Browser closed successfully
+Test teardown completed
+=== Flushing report after ALL tests ===
+✓ ExtentReport generated successfully
+✓ Report location: ./reports/
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Omar, LastName: Khan, Email: omar.k@test.com, Gender: Male, DOB: 3 May 1999, Subjects: History, Hobbies: Sports, Mobile: 2147483647
+Starting test setup...
+✓ ExtentReportManager initialized
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+✓ Chrome browser launched and maximized
+✓ BasePage initialized with WebDriver
+>>> Test started: ValidForm
+Navigating to DemoQA form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Tara, LastName: Singh, Email: tara@mail.in, Gender: Other, DOB: 3 May 1999, Subjects: Science, Hobbies: Music, Mobile: 2147483647
+Navigation complete. Test ready.
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Leo, LastName: Gupta, Email: leo.g@biz.net, Gender: Male, DOB: 4 May 1999, Subjects: Accounting, Hobbies: Reading, Mobile: 2147483647
+✗ Test FAILED: ValidForm
+Starting test teardown...
+✓ Browser closed successfully
+Test teardown completed
+=== Flushing report after ALL tests ===
+✓ ExtentReport generated successfully
+✓ Report location: ./reports/
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Nina, LastName: Reddy, Email: nina@test.org, Gender: Female, DOB: 3 May 1999, Subjects: Psychology, Hobbies: Music, Sports, Mobile: 2147483647
+Test FAILED - Exception occurred: ElementNotInteractableException
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=141.0.7390.108)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [39f88f0129cc6046c1aaaeebedfcc7c9, sendKeysToElement {value=[Ljava.lang.CharSequence;@63318b56, id=f.CE34F8F9E0F9CCF7C89725E2DE26D086.d.6FA83E4FCF9A76DED3E2CB89259BC4A8.e.1257}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49684}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49684/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (39f88f0129cc6046c1aaaeebedfcc7c9)] -> id: react-select-4-input]
+Session ID: 39f88f0129cc6046c1aaaeebedfcc7c9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.demoqa.pages.DemoqaPage.setCity(DemoqaPage.java:229)
+	at com.demoqa.pages.DemoqaPage.registartionForm(DemoqaPage.java:58)
+	at com.demoqa.tests.TestCase01_02_DDT.FormTesting(TestCase01_02_DDT.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: ---, FirstName: ---, LastName: ---, Email: ---, Gender: ---, DOB: 6 May 1999, Subjects: ---, Hobbies: ---, Mobile: ---
+Starting test setup...
+✓ ExtentReportManager initialized
+✓ Chrome browser launched and maximized
+✓ BasePage initialized with WebDriver
+>>> Test started: ValidForm
+Navigating to DemoQA form...
+Navigation complete. Test ready.
+Test FAILED - Exception occurred: ElementNotInteractableException
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=141.0.7390.108)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [39f88f0129cc6046c1aaaeebedfcc7c9, sendKeysToElement {value=[Ljava.lang.CharSequence;@6655f3cd, id=f.CE34F8F9E0F9CCF7C89725E2DE26D086.d.2BD1F34462752FF6A6505B9819187A59.e.1372}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49684}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49684/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (39f88f0129cc6046c1aaaeebedfcc7c9)] -> id: react-select-4-input]
+Session ID: 39f88f0129cc6046c1aaaeebedfcc7c9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.demoqa.pages.DemoqaPage.setCity(DemoqaPage.java:229)
+	at com.demoqa.pages.DemoqaPage.registartionForm(DemoqaPage.java:58)
+	at com.demoqa.tests.TestCase01_02_DDT.FormTesting(TestCase01_02_DDT.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Invalid, FirstName: Error, LastName: Too Short, Email: error@test.com, Gender: Female, DOB: 7 May 1999, Subjects: Math, Hobbies: Reading, Mobile: 12345
+✓ Test PASSED: ValidForm
+Starting test teardown...
+✓ Browser closed successfully
+Test teardown completed
+=== Flushing report after ALL tests ===
+✓ ExtentReport generated successfully
+✓ Report location: ./reports/
+PASS: Form submission blocked for invalid data - RecordType: Invalid, Reason: Mobile: Less than 10 digits.
+✓ Test PASSED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Invalid, FirstName: Error, LastName: Too Long, Email: error@test.com, Gender: Male, DOB: 8 May 1999, Subjects: Math, Hobbies: Reading, Mobile: 2147483647
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Invalid, FirstName: Invalid, LastName: Email, Email: https://www.google.com/search?q=bad.email.com, Gender: Other, DOB: 9 May 1999, Subjects: Math, Hobbies: Reading, Mobile: 1234567890
+PASS: Form submission blocked for invalid data - RecordType: Invalid, Reason: Email: Missing the '@' symbol.
+✓ Test PASSED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Invalid, FirstName: Missing, LastName: Gender, Email: missing@gender.net, Gender: (Empty), DOB: 06 May 1999, Subjects: Math, Hobbies: Reading, Mobile: 2147483647
+Test FAILED - Exception occurred: NoSuchElementException
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@role='option' and contains(@class, 'react-datepicker__day') and not(contains(@class, 'outside-month')) and text()='06']"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [39f88f0129cc6046c1aaaeebedfcc7c9, findElement {value=//div[@role='option' and contains(@class, 'react-datepicker__day') and not(contains(@class, 'outside-month')) and text()='06'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49684}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49684/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 39f88f0129cc6046c1aaaeebedfcc7c9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at com.demoqa.pages.DemoqaPage.setDateOfBirth(DemoqaPage.java:140)
+	at com.demoqa.pages.DemoqaPage.registartionForm(DemoqaPage.java:52)
+	at com.demoqa.tests.TestCase01_02_DDT.FormTesting(TestCase01_02_DDT.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Invalid, FirstName: Bad, LastName: Date, Email: bad@date.co, Gender: Male, DOB: 1 May 1999, Subjects: Math, Hobbies: Reading, Mobile: 1111111111
+Starting test setup...
+✓ ExtentReportManager initialized
+✓ Chrome browser launched and maximized
+✓ BasePage initialized with WebDriver
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: John, LastName: Doe, Email: john.doe@example.com, Gender: Male, DOB: 26 May 1999, Subjects: Physics, Hobbies: Sports, Reading, Mobile: 2147483647
+Test FAILED - Exception occurred: ElementNotInteractableException
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=141.0.7390.108)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2277a1bda97b6ccf5e4da424bd6ee137, sendKeysToElement {value=[Ljava.lang.CharSequence;@e111c7c, id=f.AB511C74BF9956D5DD1C4BD7D71A90A9.d.82C74D9FE112A9E8B4F34C53904C8AAF.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55508}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55508/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2277a1bda97b6ccf5e4da424bd6ee137)] -> id: react-select-4-input]
+Session ID: 2277a1bda97b6ccf5e4da424bd6ee137
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.demoqa.pages.DemoqaPage.setCity(DemoqaPage.java:221)
+	at com.demoqa.pages.DemoqaPage.registartionForm(DemoqaPage.java:58)
+	at com.demoqa.tests.TestCase01_02_DDT.FormTesting(TestCase01_02_DDT.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Alice, LastName: Smith, Email: a.smith@test.net, Gender: Female, DOB: 27 May 1999, Subjects: Computer Science, Hobbies: Reading, Music, Mobile: 1234567890
+Test FAILED - Exception occurred: ElementNotInteractableException
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=141.0.7390.108)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2277a1bda97b6ccf5e4da424bd6ee137, sendKeysToElement {value=[Ljava.lang.CharSequence;@1f9d4b0e, id=f.AB511C74BF9956D5DD1C4BD7D71A90A9.d.04F477DF660342DC941E3AAE822F1A9B.e.86}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55508}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55508/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2277a1bda97b6ccf5e4da424bd6ee137)] -> id: react-select-4-input]
+Session ID: 2277a1bda97b6ccf5e4da424bd6ee137
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.demoqa.pages.DemoqaPage.setCity(DemoqaPage.java:221)
+	at com.demoqa.pages.DemoqaPage.registartionForm(DemoqaPage.java:58)
+	at com.demoqa.tests.TestCase01_02_DDT.FormTesting(TestCase01_02_DDT.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Raj, LastName: Patel, Email: raj.p@corp.in, Gender: Male, DOB: 28 May 1999, Subjects: Chemistry, Hobbies: Sports, Mobile: 2147483647
+Test FAILED - Exception occurred: ElementNotInteractableException
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=141.0.7390.108)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2277a1bda97b6ccf5e4da424bd6ee137, sendKeysToElement {value=[Ljava.lang.CharSequence;@5a090f62, id=f.AB511C74BF9956D5DD1C4BD7D71A90A9.d.44632EE5FE6EC7840949D50C9BF8321E.e.196}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55508}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55508/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2277a1bda97b6ccf5e4da424bd6ee137)] -> id: react-select-4-input]
+Session ID: 2277a1bda97b6ccf5e4da424bd6ee137
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.demoqa.pages.DemoqaPage.setCity(DemoqaPage.java:221)
+	at com.demoqa.pages.DemoqaPage.registartionForm(DemoqaPage.java:58)
+	at com.demoqa.tests.TestCase01_02_DDT.FormTesting(TestCase01_02_DDT.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Priya, LastName: Verma, Email: priya.v@org.com, Gender: Female, DOB: 2 May 1999, Subjects: English, Hobbies: Music, Mobile: 9998888
+Starting test setup...
+✓ ExtentReportManager initialized
+✓ Chrome browser launched and maximized
+✓ BasePage initialized with WebDriver
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Alice, LastName: Smith, Email: a.smith@test.net, Gender: Female, DOB: 27 May 1999, Subjects: Computer Science, Hobbies: Reading, Music, Mobile: 1234567890
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Raj, LastName: Patel, Email: raj.p@corp.in, Gender: Male, DOB: 28 May 1999, Subjects: Chemistry, Hobbies: Sports, Mobile: 2147483647
+Starting test setup...
+✓ ExtentReportManager initialized
+✓ Chrome browser launched and maximized
+✓ BasePage initialized with WebDriver
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: John, LastName: Doe, Email: john.doe@example.com, Gender: Male, DOB: 26 May 1999, Subjects: Physics, Hobbies: Sports, Reading, Mobile: 2147483647
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Alice, LastName: Smith, Email: a.smith@test.net, Gender: Female, DOB: 27 May 1999, Subjects: Computer Science, Hobbies: Reading, Music, Mobile: 1234567890
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Raj, LastName: Patel, Email: raj.p@corp.in, Gender: Male, DOB: 28 May 1999, Subjects: Chemistry, Hobbies: Sports, Mobile: 2147483647
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Priya, LastName: Verma, Email: priya.v@org.com, Gender: Female, DOB: 2 May 1999, Subjects: English, Hobbies: Music, Mobile: 9998888
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Zack, LastName: King, Email: zack@tech.io, Gender: Male, DOB: 3 May 1999, Subjects: Commerce, Hobbies: Sports, Reading, Music, Mobile: 1122334455
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Mira, LastName: Shukla, Email: mira.s@data.co, Gender: Female, DOB: 3 May 1999, Subjects: Art, Hobbies: Reading, Mobile: 2147483647
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Omar, LastName: Khan, Email: omar.k@test.com, Gender: Male, DOB: 3 May 1999, Subjects: History, Hobbies: Sports, Mobile: 2147483647
+Starting test setup...
+✓ ExtentReportManager initialized
+✓ Chrome browser launched and maximized
+✓ BasePage initialized with WebDriver
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: John, LastName: Doe, Email: john.doe@example.com, Gender: Male, DOB: 26 May 1999, Subjects: Physics, Hobbies: Sports, Reading, Mobile: 2147483647
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Alice, LastName: Smith, Email: a.smith@test.net, Gender: Female, DOB: 27 May 1999, Subjects: Computer Science, Hobbies: Reading, Music, Mobile: 1234567890
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Raj, LastName: Patel, Email: raj.p@corp.in, Gender: Male, DOB: 28 May 1999, Subjects: Chemistry, Hobbies: Sports, Mobile: 2147483647
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Priya, LastName: Verma, Email: priya.v@org.com, Gender: Female, DOB: 2 May 1999, Subjects: English, Hobbies: Music, Mobile: 9998888
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Zack, LastName: King, Email: zack@tech.io, Gender: Male, DOB: 3 May 1999, Subjects: Commerce, Hobbies: Sports, Reading, Music, Mobile: 1122334455
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Mira, LastName: Shukla, Email: mira.s@data.co, Gender: Female, DOB: 3 May 1999, Subjects: Art, Hobbies: Reading, Mobile: 2147483647
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Omar, LastName: Khan, Email: omar.k@test.com, Gender: Male, DOB: 3 May 1999, Subjects: History, Hobbies: Sports, Mobile: 2147483647
+Test FAILED - Exception occurred: UnreachableBrowserException
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [510a7359fe12e3c0c530b4c521ca3a49, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54099}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54099/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 510a7359fe12e3c0c530b4c521ca3a49
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at base.BasePage.find(BasePage.java:18)
+	at base.BasePage.set(BasePage.java:22)
+	at com.demoqa.pages.DemoqaPage.setUserNumber(DemoqaPage.java:84)
+	at com.demoqa.pages.DemoqaPage.registartionForm(DemoqaPage.java:51)
+	at com.demoqa.tests.TestCase01_02_DDT.FormTesting(TestCase01_02_DDT.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:500)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:956)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+	... 9 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1082)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:280)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$2(PlainHttpConnection.java:238)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:978)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:554)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1817)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	... 3 more
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:958)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 10 more
+✗ Test FAILED: FormTesting
+Error in AfterMethod: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [510a7359fe12e3c0c530b4c521ca3a49, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54099}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54099/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 510a7359fe12e3c0c530b4c521ca3a49
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+=== Flushing report after ALL tests ===
+✓ ExtentReport generated successfully
+✓ Report location: ./reports/
+Starting test setup...
+✓ ExtentReportManager initialized
+✓ Chrome browser launched and maximized
+✓ BasePage initialized with WebDriver
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: John, LastName: Doe, Email: john.doe@example.com, Gender: Male, DOB: 26 May 1999, Subjects: Physics, Hobbies: Sports, Reading, Mobile: 2147483647
+Test FAILED - Exception occurred: ElementNotInteractableException
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=141.0.7390.123)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96102b2e75607a8eab41788951cdfe92, sendKeysToElement {id=f.A1A8A275DCB287001FC3C33F26B226F2.d.F4E2918B238FF11100E6EF2A3E7EF8EC.e.17, value=[Ljava.lang.CharSequence;@2d85fb64}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52028}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52028/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (96102b2e75607a8eab41788951cdfe92)] -> id: react-select-4-input]
+Session ID: 96102b2e75607a8eab41788951cdfe92
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.demoqa.pages.DemoqaPage.setCity(DemoqaPage.java:221)
+	at com.demoqa.pages.DemoqaPage.registartionForm(DemoqaPage.java:58)
+	at com.demoqa.tests.TestCase01_02_DDT.FormTesting(TestCase01_02_DDT.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Alice, LastName: Smith, Email: a.smith@test.net, Gender: Female, DOB: 27 May 1999, Subjects: Computer Science, Hobbies: Reading, Music, Mobile: 1234567890
+Test FAILED - Exception occurred: ElementNotInteractableException
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=141.0.7390.123)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96102b2e75607a8eab41788951cdfe92, sendKeysToElement {id=f.A1A8A275DCB287001FC3C33F26B226F2.d.8BD42E43D36827A20EFD07C95F476515.e.80, value=[Ljava.lang.CharSequence;@34451ed8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52028}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52028/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (96102b2e75607a8eab41788951cdfe92)] -> id: react-select-4-input]
+Session ID: 96102b2e75607a8eab41788951cdfe92
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.demoqa.pages.DemoqaPage.setCity(DemoqaPage.java:221)
+	at com.demoqa.pages.DemoqaPage.registartionForm(DemoqaPage.java:58)
+	at com.demoqa.tests.TestCase01_02_DDT.FormTesting(TestCase01_02_DDT.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Raj, LastName: Patel, Email: raj.p@corp.in, Gender: Male, DOB: 28 May 1999, Subjects: Chemistry, Hobbies: Sports, Mobile: 2147483647
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Priya, LastName: Verma, Email: priya.v@org.com, Gender: Female, DOB: 2 May 1999, Subjects: English, Hobbies: Music, Mobile: 9998888
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Zack, LastName: King, Email: zack@tech.io, Gender: Male, DOB: 3 May 1999, Subjects: Commerce, Hobbies: Sports, Reading, Music, Mobile: 1122334455
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Mira, LastName: Shukla, Email: mira.s@data.co, Gender: Female, DOB: 3 May 1999, Subjects: Art, Hobbies: Reading, Mobile: 2147483647
+Starting test setup...
+✓ ExtentReportManager initialized
+✓ Chrome browser launched and maximized
+✓ BasePage initialized with WebDriver
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Alice, LastName: Smith, Email: a.smith@test.net, Gender: Female, DOB: 27 May 1999, Subjects: Computer Science, Hobbies: Reading, Music, Mobile: 1234567890
+Test FAILED - Exception occurred: ElementNotInteractableException
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=141.0.7390.123)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [128f33f96a2f6654ac4b81a0906ae706, sendKeysToElement {id=f.44B3CC153F10FE36DF06A290AE24984C.d.A919E69B613125C102F1DD04F8F5E98A.e.20, value=[Ljava.lang.CharSequence;@3ba348ca}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55440}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55440/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (128f33f96a2f6654ac4b81a0906ae706)] -> id: react-select-4-input]
+Session ID: 128f33f96a2f6654ac4b81a0906ae706
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.demoqa.pages.DemoqaPage.setCity(DemoqaPage.java:221)
+	at com.demoqa.pages.DemoqaPage.registartionForm(DemoqaPage.java:58)
+	at com.demoqa.tests.TestCase01_02_DDT.FormTesting(TestCase01_02_DDT.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Raj, LastName: Patel, Email: raj.p@corp.in, Gender: Male, DOB: 28 May 1999, Subjects: Chemistry, Hobbies: Sports, Mobile: 2147483647
+Starting test setup...
+✓ ExtentReportManager initialized
+✓ Chrome browser launched and maximized
+✓ BasePage initialized with WebDriver
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: John, LastName: Doe, Email: john.doe@example.com, Gender: Male, DOB: 26 May 1999, Subjects: Physics, Hobbies: Sports, Reading, Mobile: 2147483647
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Alice, LastName: Smith, Email: a.smith@test.net, Gender: Female, DOB: 27 May 1999, Subjects: Computer Science, Hobbies: Reading, Music, Mobile: 1234567890
+✗ Test FAILED: FormTesting
+Starting test teardown...
+✓ Browser closed successfully
+Test teardown completed
+=== Flushing report after ALL tests ===
+✓ ExtentReport generated successfully
+✓ Report location: ./reports/
+Starting test setup...
+✓ ExtentReportManager initialized
+✓ Chrome browser launched and maximized
+✓ BasePage initialized with WebDriver
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: John, LastName: Doe, Email: john.doe@example.com, Gender: Male, DOB: 26 May 1999, Subjects: Physics, Hobbies: Sports, Reading, Mobile: 2147483647
+✗ Test FAILED: FormTesting
+>>> Test started: FormTesting
+Opening DemoQA Automation Practice Form...
+DemoQA page loaded successfully.
+Page Title: DEMOQA
+Running test with - RecordType: Valid, FirstName: Alice, LastName: Smith, Email: a.smith@test.net, Gender: Female, DOB: 27 May 1999, Subjects: Computer Science, Hobbies: Reading, Music, Mobile: 1234567890
+PASS: Form successfully submitted with valid data - RecordType: Valid
+✓ Test PASSED: FormTesting
+Starting test teardown...
+✓ Browser closed successfully
+Test teardown completed
+=== Flushing report after ALL tests ===
+✓ ExtentReport generated successfully
+✓ Report location: ./reports/

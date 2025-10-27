@@ -5,7 +5,7 @@ import com.demoqa.pages.DemoqaPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestCase01_Valid extends BaseTest {
+public class ValidDataTest extends BaseTest {
 
     DemoqaPage demoqaPage= new DemoqaPage();
 
@@ -27,8 +27,9 @@ public class TestCase01_Valid extends BaseTest {
                 "Jaipur"
 
         );
-        demoqaPage.submitForm();
-        Assert.assertTrue(true,"registration sucessfully");
+       boolean registerStatus= demoqaPage.submitForm();
+
+        Assert.assertTrue(registerStatus,"registration sucessfully");
 
 
     }

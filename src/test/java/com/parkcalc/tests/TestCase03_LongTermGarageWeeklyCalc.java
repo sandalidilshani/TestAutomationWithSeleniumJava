@@ -25,51 +25,100 @@ public class TestCase03_LongTermGarageWeeklyCalc extends BaseTest {
         logger.info("Starting Long-Term Garage Parking weekly cost test");
 
         try {
-            // Select the correct parking type
-            parkCalcPage.chooseParkingLot("Long-Garage");
-            String selectedType = parkCalcPage.chekSlectedType();
-            Assert.assertTrue(selectedType.contains("Long-Term Garage Parking"), "Wrong parking type selected!");
 
-            // Select entry date
+            parkCalcPage.chooseParkingLot("Long-Garage");
+
+            String selectedType = parkCalcPage.chekSlectedType();
+            Assert.assertTrue(
+                    selectedType.contains("Long-Term Garage Parking"),
+                    "ASSERTION FAILED: Long-Term Garage Parking type was not selected. Expected to contain 'Long-Term Garage Parking' but got: '" + selectedType + "'"
+            );
+
+
+
             parkCalcPage.openStartClender();
+
             isOpened = parkCalcPage.isCalenderPopUpOpned();
-            Assert.assertTrue(isOpened, "Start calendar popup did not open!");
+            Assert.assertTrue(
+                    isOpened,
+                    "ASSERTION FAILED: Start date calendar popup did not open. Expected popup to be visible but it was not."
+            );
+
+
+
             parkCalcPage.setDate(2025, "20", "October");
             selectedDate = parkCalcPage.SelectedDate();
-            logger.info("Start Date: " + selectedDate);
 
-            // Select exit date
+            Assert.assertNotNull(
+                    selectedDate,
+                    "ASSERTION FAILED: Start date was not set. Expected a date value but got null."
+            );
+
+
+
             parkCalcPage.openLeaveClender();
             isOpened = parkCalcPage.isCalenderPopUpOpned();
-            Assert.assertTrue(isOpened, "Leaving calendar popup did not open!");
+            Assert.assertTrue(
+                    isOpened,
+                    "ASSERTION FAILED: End date calendar popup did not open. Expected popup to be visible but it was not."
+            );
+
+
+
             parkCalcPage.setDate(2025, "29", "October");
             selectedDate = parkCalcPage.SelectedDate();
-            logger.info("Leaving Date: " + selectedDate);
 
-            // Set entry and exit times
+            Assert.assertNotNull(
+                    selectedDate,
+                    "ASSERTION FAILED: End date was not set. Expected a date value but got null."
+            );
+
+
+
             parkCalcPage.setStartTime("08:00");
             parkCalcPage.setEndTime("08:00");
-            parkCalcPage.calculate();
 
-            // Get actual cost and duration from the app
+
+
+            parkCalcPage.calculate();
+            logger.info("Calculate button clicked successfully");
+
             double actualCost = parkCalcPage.getTotalCost();
             int actualHours = parkCalcPage.getTotalHours();
 
-            logger.info("Duration: " + actualHours + " hours");
-            logger.info("Displayed Cost: " + actualCost);
+            Assert.assertTrue(
+                    actualHours > 0,
+                    "ASSERTION FAILED: Parking duration is invalid. Expected hours to be greater than 0 but got: " + actualHours
+            );
+            logger.info("Parking duration is valid (" + actualHours + " hours)");
+
+            Assert.assertTrue(
+                    actualCost > 0,
+                    "ASSERTION FAILED: Parking cost is invalid. Expected cost to be greater than 0 but got: $" + actualCost
+            );
+            logger.info("Parking cost is valid ($" + actualCost + ")");
 
             double expectedCost = longTermCalc.calculate("10/20/2025", "08:00", "10/27/2025", "08:00");
-
-
             logger.info("Expected Cost: " + expectedCost);
 
-            Assert.assertEquals(actualCost, expectedCost, "Total cost mismatch!");
-            Assert.assertEquals(expectedCost, 72.0, "Expected weekly rate should be $72.00");
-            logger.info("✅ Long-Term Garage weekly calculation passed successfully");
+            Assert.assertEquals(
+                    actualCost,
+                    expectedCost,
+                    "ASSERTION FAILED: Parking cost mismatch! Expected cost to be $" + expectedCost + " but got $" + actualCost
+            );
+            logger.info("Calculated cost matches expected cost ($" + actualCost + ")");
+
+            Assert.assertEquals(
+                    expectedCost,
+                    72.0,
+                    "ASSERTION FAILED: Weekly parking rate is incorrect. Expected cost to be $72.00 but got $" + expectedCost
+            );
+
+            logger.info("Test03 - ALL ASSERTIONS PASSED");
 
         } catch (Exception e) {
-            logger.error("❌ Long-Term Garage weekly calculation failed", e);
-            Assert.fail("Test failed: " + e.getMessage());
+            logger.error("Test03 - FAILED - Exception occurred: " + e.getClass().getSimpleName(), e);
+            Assert.fail("Test failed due to exception: " + e.getMessage() + "\nStack trace: " + e);
         }
     }
 }

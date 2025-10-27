@@ -5,7 +5,7 @@ import com.demoqa.pages.DemoqaPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestCase02_FormValidationTests extends BaseTest {
+public class InvalidDataTest extends BaseTest {
 
     DemoqaPage demoqaPage = new DemoqaPage();
 

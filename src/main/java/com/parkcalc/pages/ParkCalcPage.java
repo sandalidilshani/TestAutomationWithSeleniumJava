@@ -98,7 +98,6 @@ public class ParkCalcPage extends BasePage {
 
     }
     public void selectDay(String day) {
-        // The calendar days are just <a> elements with text = day number
         By dayLocator = By.xpath("//a[text()='" + day + "']");
         click(dayLocator);
     }
